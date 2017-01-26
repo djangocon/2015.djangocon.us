@@ -56,7 +56,14 @@ def process_anchors(soup):
 
             if link.startswith('https://2015.djangocon.us/'):
                 link = link.replace('https://2015.djangocon.us/', '/')
-                anchor['href'] = link
+
+            if link.startswith('http://djangocon-us.global.ssl.fastly.net/'):
+                link = link.replace('http://djangocon-us.global.ssl.fastly.net/', '/')
+
+            if link.startswith('https://djangocon-us.global.ssl.fastly.net/'):
+                link = link.replace('https://djangocon-us.global.ssl.fastly.net/', '/')
+
+            anchor['href'] = link
 
     return soup
 
@@ -90,6 +97,9 @@ def process_css_links(soup):
 
             if link.startswith('https://2015.djangocon.us/'):
                 link = link.replace('https://2015.djangocon.us/', '/')
+
+            if link.startswith('http://djangocon-us.global.ssl.fastly.net/'):
+                link = link.replace('http://djangocon-us.global.ssl.fastly.net/', '/')
 
             if link.startswith('https://djangocon-us.global.ssl.fastly.net/'):
                 link = link.replace('https://djangocon-us.global.ssl.fastly.net/', '/')
