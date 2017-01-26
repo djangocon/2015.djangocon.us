@@ -72,6 +72,12 @@ def process_css_links(soup):
             if link.startswith('../'):
                 link = link.replace('../', '/')
 
+            if link.startswith('/djangocon-us.global.ssl.fastly.net/'):
+                link = link.replace('/djangocon-us.global.ssl.fastly.net/', '/')
+
+            if link.startswith('//djangocon-us.global.ssl.fastly.net/'):
+                link = link.replace('//djangocon-us.global.ssl.fastly.net/', '/')
+
             link = '/{0}'.format(link.lstrip('/'))
 
             anchor['href'] = link
