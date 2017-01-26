@@ -1,0 +1,6 @@
+/* @import must be at top of file, otherwise CSS will not work */
+@import url("//hello.myfonts.net/count/2da762");
+
+@font-face {font-family: 'BrandonText-Medium';src: url("webfonts/2DA762_0_0.7e83546ca7bb.eot");src: url("webfonts/2DA762_0_0.7e83546ca7bb.eot?#iefix") format('embedded-opentype'),url("webfonts/2DA762_0_0.2497b8c9701f.woff2") format('woff2'),url("webfonts/2DA762_0_0.3cb072e452ed.woff") format('woff'),url("webfonts/2DA762_0_0.881b73b491fa.ttf") format('truetype');}
+@font-face {font-family: 'BrandonPrinted-Two';src: url("webfonts/2DA762_1_0.2b7d5b76ad86.eot");src: url("webfonts/2DA762_1_0.2b7d5b76ad86.eot?#iefix") format('embedded-opentype'),url("webfonts/2DA762_1_0.2383feb63217.woff2") format('woff2'),url("webfonts/2DA762_1_0.6e0ae2625b48.woff") format('woff'),url("webfonts/2DA762_1_0.3c9b45d078a0.ttf") format('truetype');}
+@font-face {font-family: 'BrandonPrinted-Extras';src: url("webfonts/2DA762_2_0.ed0eb7078beb.eot");src: url("webfonts/2DA762_2_0.ed0eb7078beb.eot?#iefix") format('embedded-opentype'),url("webfonts/2DA762_2_0.e01835549c94.woff2") format('woff2'),url("webfonts/2DA762_2_0.fb4b31814523.woff") format('woff'),url("webfonts/2DA762_2_0.c6ab631154f2.ttf") format('truetype');}

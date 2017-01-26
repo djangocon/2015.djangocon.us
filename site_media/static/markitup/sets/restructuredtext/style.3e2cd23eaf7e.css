@@ -1,0 +1,53 @@
+/* -------------------------------------------------------------------
+// ReST!
+// ------------------------------------------------------------------*/
+.ReST .markItUpButton1 a {
+	background-image:url("images/h1.eb2d1b1e1e4f.png"); 
+}
+.ReST .markItUpButton2 a {
+	background-image:url("images/h2.b28528ee22ba.png"); 
+}
+.ReST .markItUpButton3 a {
+	background-image:url("images/h3.fc804ff01e33.png"); 
+}
+.ReST .markItUpButton4 a {
+	background-image:url("images/h4.fb629d0b73d5.png"); 
+}
+.ReST .markItUpButton5 a {
+	background-image:url("images/h5.ec6f3cbaafa8.png"); 
+}
+.ReST .markItUpButton6 a {
+	background-image:url("images/h6.40793a50b306.png"); 
+}
+
+.ReST .markItUpButton7 a {
+	background-image:url("images/bold.d60427ad6f59.png");
+}
+.ReST .markItUpButton8 a {
+	background-image:url("images/italic.fca8af7918d7.png");
+}
+
+.ReST .markItUpButton9 a {
+	background-image:url("images/list-bullet.2130eaaf40e8.png");
+}
+.ReST .markItUpButton10 a {
+	background-image:url("images/list-numeric.88f7aa99a1ad.png");
+}
+
+.ReST .markItUpButton11 a {
+	background-image:url("images/picture.d2040c34ba1f.png"); 
+}
+.ReST .markItUpButton12 a {
+	background-image:url("images/link.a5dc8319bff0.png");
+}
+
+.ReST .markItUpButton13 a	{
+	background-image:url("images/quotes.05d28091baa2.png");
+}
+.ReST .markItUpButton14 a	{
+	background-image:url("images/code.13ad2158a488.png");
+}
+
+.ReST .preview a {
+	background-image:url("images/preview.c9b528b9541e.png");
+}

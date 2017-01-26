@@ -1,0 +1,54 @@
+/* -------------------------------------------------------------------
+// markItUp!
+// By Jay Salvat - http://markitup.jaysalvat.com/
+// ------------------------------------------------------------------*/
+.markItUp .markItUpButton1 a {
+	background-image:url("images/h1.eb2d1b1e1e4f.png"); 
+}
+.markItUp .markItUpButton2 a {
+	background-image:url("images/h2.b28528ee22ba.png"); 
+}
+.markItUp .markItUpButton3 a {
+	background-image:url("images/h3.fc804ff01e33.png"); 
+}
+.markItUp .markItUpButton4 a {
+	background-image:url("images/h4.fb629d0b73d5.png"); 
+}
+.markItUp .markItUpButton5 a {
+	background-image:url("images/h5.ec6f3cbaafa8.png"); 
+}
+.markItUp .markItUpButton6 a {
+	background-image:url("images/h6.40793a50b306.png"); 
+}
+
+.markItUp .markItUpButton7 a {
+	background-image:url("images/bold.d60427ad6f59.png");
+}
+.markItUp .markItUpButton8 a {
+	background-image:url("images/italic.fca8af7918d7.png");
+}
+
+.markItUp .markItUpButton9 a {
+	background-image:url("images/list-bullet.2130eaaf40e8.png");
+}
+.markItUp .markItUpButton10 a {
+	background-image:url("images/list-numeric.88f7aa99a1ad.png");
+}
+
+.markItUp .markItUpButton11 a {
+	background-image:url("images/picture.d2040c34ba1f.png"); 
+}
+.markItUp .markItUpButton12 a {
+	background-image:url("images/link.a5dc8319bff0.png");
+}
+
+.markItUp .markItUpButton13 a	{
+	background-image:url("images/quotes.05d28091baa2.png");
+}
+.markItUp .markItUpButton14 a	{
+	background-image:url("images/code.13ad2158a488.png");
+}
+
+.markItUp .preview a {
+	background-image:url("images/preview.c9b528b9541e.png");
+}
