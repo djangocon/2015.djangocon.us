@@ -1,0 +1,55 @@
+title: DjangoCon US
+url: "https://2015.djangocon.us"
+author : DjangoCon US
+enforce_ssl: "2015.djangocon.us"
+relative_permalinks: false
+permalink: news/:title/  # permalink: date
+
+include:
+  - _pages
+  - .surgeignore
+
+# Build settings
+markdown: kramdown
+
+gems:
+  - jekyll-feed
+  - jekyll-redirect-from
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jemoji
+
+exclude:
+  - .editorconfig
+  - .gitignore
+  - bower_components
+  - CONTRIBUTING.md
+  - deploy_surge.sh
+  - Gemfile
+  - Gemfile.lock
+  - gulpfile.js
+  - LICENSE
+  - node_modules
+  - package.json
+  - Rakefile
+  - README.md
+
+collections:  # process the _data folder
+  components:
+    output: false
+
+# SEO Plugin settings
+
+twitter:
+  username: djangocon
+
+# This is the default logo that people see with opengraph
+logo: /static/2015-logos/squares-and-social/djangocon-square.png
+
+# Frontmatter fallback settings
+# This is the default logo that people see on blog posts
+defaults:
+  - scope:
+      path: ""
+    values:
+      image: /static/2015-logos/squares-and-social/djangocon-square.png
