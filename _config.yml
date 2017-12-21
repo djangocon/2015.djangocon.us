@@ -7,12 +7,11 @@ permalink: news/:title/  # permalink: date
 
 include:
   - _pages
-  - .surgeignore
 
 # Build settings
 markdown: kramdown
 
-gems:
+plugins:
   - jekyll-feed
   - jekyll-redirect-from
   - jekyll-seo-tag
@@ -20,19 +19,27 @@ gems:
   - jemoji
 
 exclude:
+  - '*.py'
+  - '*.sh'
+  - '*.txt'
+  - '\?*'
   - .editorconfig
   - .gitignore
-  - bower_components
+  - .surgeignore
+  - CNAME
   - CONTRIBUTING.md
-  - deploy_surge.sh
   - Gemfile
   - Gemfile.lock
-  - gulpfile.js
   - LICENSE
+  - Makefile
+  - Procfile
+  - README.md
+  - Rakefile
+  - bower_components
+  - deploy_surge.sh
+  - gulpfile.js
   - node_modules
   - package.json
-  - Rakefile
-  - README.md
 
 collections:  # process the _data folder
   components:
