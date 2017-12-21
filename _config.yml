@@ -26,20 +26,21 @@ exclude:
   - .editorconfig
   - .gitignore
   - .surgeignore
+  - _backup
+  - bower_components
   - CNAME
   - CONTRIBUTING.md
+  - deploy_surge.sh
   - Gemfile
   - Gemfile.lock
+  - gulpfile.js
   - LICENSE
   - Makefile
-  - Procfile
-  - README.md
-  - Rakefile
-  - bower_components
-  - deploy_surge.sh
-  - gulpfile.js
   - node_modules
   - package.json
+  - Procfile
+  - Rakefile
+  - README.md
 
 collections:  # process the _data folder
   components:
