@@ -7,11 +7,11 @@ title: Sign up to volunteer!  | DjangoCon in Austin, TX
 
 <html lang="en-us">
 <head>
-<meta charset="utf-8">
+<meta charset="utf-8"/>
 <title>Sign up to volunteer!  | DjangoCon in Austin, TX</title>
-<meta content="width=device-width, initial-scale=1.0" name="viewport">
-<meta content="DjangoCon US 2015 in Austin, TX" property="og:title"/>
-<meta content="website" property="og:type"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<meta content="DjangoCon US 2015 in Austin, TX" property="og:title">
+<meta content="website" property="og:type">
 <meta content="https://2015.djangocon.us/" property="og:url"/>
 <meta content="DjangoCon US 2015" property="og:site_name"/>
 <meta content="A six-day not-for-profit by-the-community and for-the-community international conference for the Django web framework. " property="og:description"/>
@@ -42,8 +42,8 @@ title: Sign up to volunteer!  | DjangoCon in Austin, TX
 <span class="icon-bar"></span>
 </button>
 <a class="navbar-brand" href="/">
-<img alt="logo" class="img-responsive" src="/site_media/static/images/logo.png" width="180">
-</img></a>
+<img alt="logo" class="img-responsive" src="/site_media/static/images/logo.png" width="180"/>
+</a>
 </div>
 <div class="navbar-collapse collapse">
 <ul class="nav navbar-nav">
@@ -202,8 +202,8 @@ title: Sign up to volunteer!  | DjangoCon in Austin, TX
 </div>
 <div class="row base-row">
 <div class="col-xs-8 col-xs-offset-2">
-<hr>
-</hr></div>
+<hr/>
+</div>
 </div>
 <div class="row base-row">
 <div class="col-xs-8 col-xs-offset-2">
@@ -226,10 +226,10 @@ Registration desk shifts are only one hour, and you’re welcome to work more th
 <h2>Swag Bag Stuffing</h2>
 <p>Just show up! Swag bag stuffing will happen on Sunday, September 6 (time TBD). Come stuff 10 bags! Many hands make light work!</p>
 <p><em>Thanks to <a href="https://us.pycon.org/2015/about/volunteers/">PyCon US</a>, whose Volunteer Page inspired us!</em> </p></div>
-<hr>
+<hr/>
 <p class="brdp-finger"><a href="/">Read all news posts</a></p>
-<hr>
-</hr></hr></div>
+<hr/>
+</div>
 </div>
 <div class="row" id="footer">
 <div class="mainback">
@@ -240,9 +240,9 @@ Registration desk shifts are only one hour, and you’re welcome to work more th
 <div class="nail nail-bl"></div>
 <div class="nail nail-br"></div>
 <div class="col-md-6 col-centered footer-note">
-<div class="contact-us">Questions? Comments?</div><a href="/contact/">Contact Us</a><br>
+<div class="contact-us">Questions? Comments?</div><a href="/contact/">Contact Us</a><br/>
                   Design + Build by
-                      <a href="https://www.lincolnloop.com">Lincoln Loop</a> <br/>
+                      <a href="https://www.lincolnloop.com">Lincoln Loop</a> <br>
                       Hosted on <a href="https://gondor.io">Gondor</a> <br/>
                       Presented by <a href="https://www.defna.org">DEFNA</a>
 <p>©2016 DjangoCon</p>
@@ -256,19 +256,6 @@ Registration desk shifts are only one hour, and you’re welcome to work more th
 </div>
 </div>
 <script charset="utf-8" src="/site_media/static/main.js" type="text/javascript"></script>
-<script type="text/javascript">
-    var _gaq = _gaq || [];
-    _gaq.push(['_setAccount', 'UA-330386-12']);
-    _gaq.push(['_trackPageview']);
-    _gaq.push(['_trackPageLoadTime']);
-    // _gaq.push(['_setCustomVar', 1, 'Authentication Type', ut, 2]);
-
-
-    (function() {
-        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-    })();
-</script>
+{% include analytics.html %}
 </body>
 </html>
