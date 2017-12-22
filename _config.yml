@@ -61,3 +61,5 @@ defaults:
       path: ""
     values:
       image: /static/2015-logos/squares-and-social/djangocon-square.png
+
+google_analytics: "UA-93279021-4"
