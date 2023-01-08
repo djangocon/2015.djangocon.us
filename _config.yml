@@ -12,35 +12,43 @@ include:
 markdown: kramdown
 
 plugins:
-  - jekyll-feed
-  - jekyll-redirect-from
-  - jekyll-seo-tag
-  - jekyll-sitemap
-  - jemoji
+- jekyll-feed
+- jekyll-gist
+- jekyll-mentions
+- jekyll-paginate
+- jekyll-redirect-from
+- jekyll-remote-theme
+- jekyll-seo-tag
+- jekyll-sitemap
+- jemoji
 
 exclude:
-  - '*.py'
-  - '*.sh'
-  - '*.txt'
-  - '\?*'
-  - .editorconfig
-  - .gitignore
-  - .surgeignore
-  - _backup
-  - bower_components
-  - CNAME
-  - CONTRIBUTING.md
-  - deploy_surge.sh
-  - Gemfile
-  - Gemfile.lock
-  - gulpfile.js
-  - LICENSE
-  - Makefile
-  - node_modules
-  - package.json
-  - Procfile
-  - Rakefile
-  - README.md
+- "*.yaml"
+- "*.yml"
+- .cache
+- .editorconfig
+- .gitignore
+- .vendor
+- bin
+- bower_components
+- CNAME
+- CODE_OF_CONDUCT.md
+- CONTRIBUTING.md
+- docker-compose.yml
+- EDITORS_GUIDE.md
+- Gemfile
+- Gemfile.lock
+- justfile
+- LICENSE
+- Makefile
+- node_modules
+- NOTES.md
+- package*.json
+- Procfile
+- README.md
+- requirements.in
+- vendor
+- webpack.config.js
 
 collections:  # process the _data folder
   components:
